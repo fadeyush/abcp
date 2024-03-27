@@ -14,7 +14,7 @@
 }
 
 .modal__close {
-    background-color: var(--bg-buttonPopupClose);
+    background-color: var(--bg-color);
     width: 43px;
     height: 39px;
     border-radius: 5px;
