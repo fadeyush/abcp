@@ -1,0 +1,36 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden,
+input[type="file"].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bgMain-color: #C0DBD9;
+    --bg-color: #7FAFF6;
+    --bg-gridColor: #B3F95A;
+    --bg-gridItemColor: #8AD191;
+    --bg-flexColor: #88B5BF;
+    --bg-flexItemColor: #0D89B0;
+}
+
+body {
+    background-color: var(--bgMain-color);
+}

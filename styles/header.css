@@ -1,0 +1,21 @@
+.page-header {
+    width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: var(--bg-color);
+}
+
+.page-header__button {
+    width: 206px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: #A5C7F9;
+    border: none;
+    color: white;
+
+    font-size: 20px;
+    line-height: 23.44px;
+
+    cursor: pointer;
+}
