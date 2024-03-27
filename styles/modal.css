@@ -1,0 +1,32 @@
+.modal {
+    width: 400px;
+    height: 400px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal__content {
+    font-size: 53px;
+    line-height: 62px;
+}
+
+.modal__close {
+    background-color: var(--bg-buttonPopupClose);
+    width: 43px;
+    height: 39px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--white);
+}

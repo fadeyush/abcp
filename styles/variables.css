@@ -29,8 +29,13 @@ input[type="file"].visually-hidden {
     --bg-gridItemColor: #8AD191;
     --bg-flexColor: #88B5BF;
     --bg-flexItemColor: #0D89B0;
+
+    --white: #FFFFFF;
+    --bg-buttonPopup: #A5C7F9;
+    --bg-buttonPopupClose: #7FAFF6;
 }
 
 body {
     background-color: var(--bgMain-color);
+    font-weight: 400;
 }
