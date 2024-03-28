@@ -1,4 +1,21 @@
 .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.3);
+    
+    z-index: 1111;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+
+.modal__wrapper {
     width: 400px;
     height: 400px;
     background-color: var(--white);
@@ -29,4 +46,15 @@
     font-size: 20px;
     line-height: 23px;
     color: var(--white);
+    text-decoration: none;
+}
+
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__close:target > .modal {
+    opacity: 0;
+    visibility: hidden;
 }

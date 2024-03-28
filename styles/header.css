@@ -18,4 +18,8 @@
     line-height: 23px;
 
     cursor: pointer;
+
+    text-decoration: none;
+    padding: 8px 15px;
+
 }
