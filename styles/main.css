@@ -1,9 +1,9 @@
 .page-main__grid {
-    margin-top: 15px;
     width: 1170px;
     height: 411px;
     background-color: var(--bg-gridColor);
     margin: 0 auto;
+    margin-top: 15px;
     list-style: none;
 
     display: grid;
