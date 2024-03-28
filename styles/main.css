@@ -1,3 +1,39 @@
+.page-main__grid {
+    margin-top: 15px;
+    width: 1170px;
+    height: 411px;
+    background-color: var(--bg-gridColor);
+    margin: 0 auto;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: calc(100% / 3) auto 160px;
+    grid-template-rows: repeat(2, 198px);
+    gap: 15px;
+    counter-reset: number;
+}
+
+.grid__item {
+    background-color: var(--bg-gridItemColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 53px;
+    line-height: 62px;
+}
+
+.grid__item::after {
+    counter-increment: number;
+	content: counter(number);
+	inset: 0;
+}
+
+.grid__item:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 .page-main__flex {
     max-width: 1170px;
     max-height: 259px;
